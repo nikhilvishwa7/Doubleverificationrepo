@@ -190,7 +190,7 @@ Rᴇᴀsᴏɴs
 𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ
 
 𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ 
-Rᴇᴘᴏʀᴛ Hᴇʀᴇ @KDBotz_Support</b>
+Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Request_Corner1</b>
 """
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ...
@@ -229,8 +229,8 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @KDBotz_Support</b>
 • /batch <code>- ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇᴅɪᴀ.<code>
 
 <b>Exᴀᴍᴘʟᴇ:</b>
-<code>/batch https://t.me/MoviesHouse8/1 
-https://t.me/MoviesHouse8/9</code>
+<code>/batch https://t.me/Movies_Corner20/1 
+https://t.me/Movies_Corner20/9</code>
 """
 
     KD_CNL = """
