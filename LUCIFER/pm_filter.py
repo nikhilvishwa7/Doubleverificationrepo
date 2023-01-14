@@ -1143,7 +1143,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⚡", url=HOW_DWLD_LINK)
+        InlineKeyboardButton("🍷 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🍷", url=HOW_DWLD_LINK)
     ])
 
     if offset != "":
