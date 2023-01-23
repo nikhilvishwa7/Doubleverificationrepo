@@ -2,7 +2,7 @@
 <p align="center">
     <a href="https://github.com/KDBotz/UrlShortner-AutoFilter-Bot">
         <kbd>
-            <img width="250" src="https://telegra.ph/file/97b912ea5dc433afff1bc.jpg" alt="LUCIFER">
+            <img width="250" src="https://telegra.ph/file/6bb65e84e95b708f7be7a.jpg" alt="LUCIFER">
         </kbd>
     </a>
 </p>
