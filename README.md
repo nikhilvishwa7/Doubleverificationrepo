@@ -8,7 +8,7 @@
 </p>
 
 <h2 align="center">
-  ──「 ʟᴜᴄɪғᴇʀ 」──
+  ──「 ALLU ARJUN 」──
 </h2>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=KD_BOTZ+MOVIE+SEARCH+BOT+!;CREATED+BY+KD_BOTZ+TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
