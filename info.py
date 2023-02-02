@@ -51,7 +51,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_dwnload/8')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/how_to_dwnload/10')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
@@ -84,8 +84,8 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 600))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Shorturllink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '240cd25a96c8a5e49b9e45232e2f9581f4e779a4')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '826eb92e893f6fdb42920983bba04c409bdc0b5d')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
