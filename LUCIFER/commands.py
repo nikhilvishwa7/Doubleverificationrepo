@@ -246,7 +246,6 @@ async def start(client, message):
             await message.reply_photo(
                 photo=(VERIFY_PIC),
                 caption=f"<b>Hᴇʏ ᴛʜᴇʀᴇ {message.from_user.mention}\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ғɪʀꜱᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ✅,\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ 😀.</b>",
-                protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
             await verify_user(client, userid, token)
