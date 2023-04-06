@@ -58,6 +58,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
+VERIFY = bool(environ.get('VERIFY', False))
+VERIFY_PIC = environ.get("VERIFY_PIC", "https://telegra.ph/file/e74254fbd66ff0b6addbf.jpg")
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
