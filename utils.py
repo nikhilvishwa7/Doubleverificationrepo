@@ -582,10 +582,8 @@ async def get_token(bot, userid, link, fileid):
     return str(shortened_verify_url)
 
 async def get_verify_status(userid):
-    status = temp.VERIFY.get(userid)
-    if not status:
-        status = await db.get_verified(userid)
-        temp.VERIFY[userid] = status
+    status = await db.get_verified(userid)
+    temp.VERIFY[userid] = status
     return status
     
 async def update_verify_status(userid, date_temp, time_temp):
