@@ -243,13 +243,12 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ]]
-            await message.reply_photo(
+            await verify_user(client, userid, token)
+            return await message.reply_photo(
                 photo=(VERIFY_PIC),
                 caption=f"<b>Hᴇʏ ᴛʜᴇʀᴇ {message.from_user.mention}\n\nʏᴏᴜ ʜᴀᴠᴇ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ᴛʜᴇ ғɪʀꜱᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ✅,\nɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ 😀.</b>",
                 reply_markup=InlineKeyboardMarkup(btn)
             )
-            await verify_user(client, userid, token)
-            return
         else:
             return await message.reply_text(
                 text="<b>Invalid link or Expired link !</b>",
@@ -266,12 +265,11 @@ async def start(client, message):
                     InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/how_to_dwnload/22")
                 ]]
-                await message.reply_text(
+                return await message.reply_text(
                     text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 𝟸 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</u></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
-                return
             msg = await client.send_cached_media(
                 chat_id=message.from_user.id,
                 file_id=file_id,
@@ -317,12 +315,11 @@ async def start(client, message):
             InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/how_to_dwnload/22")
         ]]
-        await message.reply_text(
+        return await message.reply_text(
             text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 𝟸 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</u></b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
-        return
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
