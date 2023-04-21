@@ -260,7 +260,7 @@ async def start(client, message):
     if not files_:
         pre, file_id = ((base64.urlsafe_b64decode(data + "=" * (-len(data) % 4))).decode("ascii")).split("_", 1)
         try:
-            if not await check_verification(client, message.from_user.id) and VERIFY == True:
+            if VERIFY and not await check_verification(client, message.from_user.id):
                 btn = [[
                     InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                     InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/how_to_dwnload/22")
@@ -310,7 +310,7 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
-    if not await check_verification(client, message.from_user.id) and VERIFY == True:
+    if VERIFY and not await check_verification(client, message.from_user.id):
         btn = [[
             InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
             InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/how_to_dwnload/22")
