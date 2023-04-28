@@ -58,7 +58,7 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', 0))
 
 # Bot Options
-IS_VERIFY = bool(environ.get('IS_VERIFY', False))
+IS_VERIFY = bool(environ.get('IS_VERIFY', True))
 VERIFY_PIC = environ.get("VERIFY_PIC", "https://telegra.ph/file/e74254fbd66ff0b6addbf.jpg")
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -86,8 +86,8 @@ DELETE_TIME = int(environ.get('DELETE_TIME', 600))
 SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # Url Shortner
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'tnlink.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '826eb92e893f6fdb42920983bba04c409bdc0b5d')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'Bharatlink.live')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '805fa7b97c9b11e85f7e87100eef73201c77d27f')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
