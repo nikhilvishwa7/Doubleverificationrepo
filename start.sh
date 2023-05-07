@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/kdbotz/UrlShortner-AutoFilter-Bot.git /UrlShortner-AutoFilter-Bot
+  git clone https://github.com/Joelkb/DQ-the-file-donor.git /DQTheFileDonorBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /UrlShortner-AutoFilter-Bot
+  git clone $UPSTREAM_REPO /DQTheFileDonorBot
 fi
-cd /UrlShortner-AutoFilter-Bot
+cd /DQTheFileDonorBot
 pip3 install -U -r requirements.txt
-echo "Starting Lucifer...."
+echo "Starting DQ-The-File-Donor...."
 python3 bot.py
