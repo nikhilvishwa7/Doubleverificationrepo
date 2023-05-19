@@ -13,7 +13,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Vis10n7>Vision</a></b>
 
-<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/Update_channel7>Movie Channel ⚡</a></b>
+<b>✯ Uᴘᴅᴀᴛᴇs : <a href=https://t.me/i24x7Update>Movie Channel ⚡</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ2.0.62 [Sᴛᴀʙʟᴇ]</b>"""
 
@@ -50,7 +50,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Update_channel7)</code>
+<code>[Button Text](buttonurl:https://t.me/i24x7Update)</code>
 
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
@@ -112,7 +112,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 <b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
 <b>📉 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
 
-<b><a href=https://t.me/Update_Channel7>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ Vision</a></b>"""
+<b><a href=https://t.me/i24x7Update>~ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ Vision</a></b>"""
 
     ADMIN_STATUS_TXT = """<b>⍟────[ ʙᴏᴛ sᴛᴀᴛᴜ𝗌 ]────⍟</b>
 
@@ -134,7 +134,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
 <b>🆓 ғʀᴇᴇ:</b> <code>{}</code>
 
-<b>⍟────[ @Update_Channel7 ]─────⍟</b>"""
+<b>⍟────[ @i24x7Update ]─────⍟</b>"""
 
     LOG_TEXT_G = """<b>#NewGroup
     
@@ -229,8 +229,8 @@ Rᴇᴘᴏʀᴛ Hᴇʀᴇ @Vis10n7</b>
 • /batch <code>- ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟɪɴᴋ ғᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ᴍᴇᴅɪᴀ.<code>
 
 <b>Exᴀᴍᴘʟᴇ:</b>
-<code>/batch https://t.me/Update_Channel7/1 
-https://t.me/Update_Channel7/9</code>
+<code>/batch https://t.me/i24x7Update/1 
+https://t.me/i24x7Update/9</code>
 """
 
     KD_CNL = """
@@ -334,7 +334,7 @@ https://t.me/Update_Channel7/9</code>
 
 ɪғ ʏᴏᴜ ɴᴏᴛ sᴇᴇ ʏᴏᴜʀ ғɪʟᴇs ᴏɴ ᴛʜɪs ᴘᴀɢᴇ ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ɴᴇxᴛ ᴘᴀɢᴇ.
 
-Powered by :- KD Botz
+Powered by :- i24x7Update
 """
 
     SPLMD = """
