@@ -1,21 +1,21 @@
 
 <p align="center">
-    <a href="https://github.com/KDBotz/UrlShortner-AutoFilter-Bot">
+    <a href="https://github.com/nikhilvishwa7/">
         <kbd>
-            <img width="250" src="https://telegra.ph/file/6bb65e84e95b708f7be7a.jpg" alt="LUCIFER">
+            <img width="250" src="(https://telegra.ph/file/d9bd3fa24eb3605e7f277.jpg)" alt="LUCIFER">
         </kbd>
     </a>
 </p>
 
 <h2 align="center">
-  ──「 ALLU ARJUN 」──
+  ──「 Morgan Stark 」──
 </h2>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=KD_BOTZ+MOVIE+SEARCH+BOT+!;CREATED+BY+KD_BOTZ+TEAM!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=KD_BOTZ+MOVIE+SEARCH+BOT+!;CREATED+BY+i24x7Update!;A+ADVANCE+BOT+WITH+COOL+FEATURES!)
 </p>
 
  ━━━━━━━━━━━━━━━━━━━━
-## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ʟᴜᴄɪғᴇʀ](t.me/filter_lucifer_bot)
+## ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Morgan Stark](t.me/Starkfamily1bot)
 
 
 <a href="https://github.com/kdbotz/UrlShortner-AutoFilter-Bot/stargazers"><img src="https://img.shields.io/github/stars/kdbotz/UrlShortner-AutoFilter-Bot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
@@ -28,7 +28,7 @@
 
 
 
-### [ʟᴜᴄɪғᴇʀ ғᴇᴀᴛᴜʀᴇs](https://github.com/KDBotz/LUCIFER/wiki#features) 
+### [Morgan stark ғᴇᴀᴛᴜʀᴇs](https://github.com/nikhilvishwa7/wiki#features) 
 ʟɪsᴛ ᴏғ ғᴇᴀᴛᴜʀᴇs sᴜᴘᴘᴏʀᴛᴇᴅ ʙʏ ʙᴏᴛ
 
 <details>
@@ -39,7 +39,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
-<p align="center"><a href="https://github.com/KDBotz/UrlShortner-AutoFilter-Bot">
+<p align="center"><a href="https://github.com/nikhilvishwa7/doubleverificationrepo">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy On Heroku">
 </a></p>
 <h3 align="center">
@@ -54,7 +54,7 @@
 </h3>
 <p>
 <pre>
-git clone https://github.com/KDBotz/LUCIFER
+git clone https://github.com/nikhilvishwa7/doubleverificationrepo
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -67,10 +67,10 @@ python3 bot.py
     ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
 
-- <b>[ᴋᴜɴᴀʟ](https://github.com/KDBOTZ)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/KDBOTZ/UrlShortner-AutoFilter-Bot) </b>
+- <b>[ᴋᴜɴᴀʟ](https://github.com/KDBOTZ)  ➻  [sᴏᴍᴇᴛʜɪɴɢ](https://github.com/nikhilvishwa7/doubleverificationrepo) </b>
 - <b>[ᴇᴠᴀᴍᴀʀɪᴀ](https://github.com/EVAMARIATG)  ➻  [ʙᴀsᴇ ᴄᴏᴅᴇ](https://github.com/EVAMARIATG/EVAMARIA) </b>
  
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/KDBotz/UrlShortner-AutoFilter-Bot/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄɪғᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
+<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://github.com/nikhilvishwa7/doubleverificationrepo)/graphs/contributors) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʟᴜᴄɪғᴇʀ ᴜsᴇғᴜʟ & ᴩᴏᴡᴇʀғᴜʟ 🖤 </b>
 
 ━━━━━━━━━━━━━━━━━━━━
 
