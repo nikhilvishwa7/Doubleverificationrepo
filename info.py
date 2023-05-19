@@ -22,9 +22,9 @@ TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/13633e4fe488e649e7f48.jpg https://telegra.ph/file/6bb65e84e95b708f7be7a.jpg https://telegra.ph/file/39fdbecb9c2f1a7b5ead6.jpg https://telegra.ph/file/4df4dae9887bba417df1f.jpg https://telegra.ph/file/a5aee98feafe94cdf1709.jpg https://telegra.ph/file/39fdbecb9c2f1a7b5ead6.jpg https://telegra.ph/file/8d617dc58db0aa34d849a.jpg https://telegra.ph/file/51790ab531424ac744f25.jpg ')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/8d12acd5f30317a6628f9.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/b60d2facc538ad82ad22d.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/615a355d7672d37005992.jpg https://telegra.ph/file/95a30772d5eb31d7ec4a9.jpg ')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/7e71ee8b85fb293ac3cf9.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/9bb80d66f394f695f6486.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/8d12acd5f30317a6628f9.jpg")
 
 # Admins, Channels & Users
