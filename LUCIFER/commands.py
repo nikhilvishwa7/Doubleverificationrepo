@@ -25,7 +25,7 @@ async def start(client, message):
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
                     InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/i24x7Update'),
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/i24x7Update')
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+tG_HsZA8waBmYjE1')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         kd = await message.reply_photo(
