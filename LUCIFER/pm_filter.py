@@ -742,7 +742,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             cnlbtn = [[
                       InlineKeyboardButton('Movies Channel', url="https://t.me/i24x7Update")
                      ], [
-                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/+tG_HsZA8waBmYjE1'),
+                      InlineKeyboardButton('Gʀᴏᴜᴘ', url='t.me/NewMovie1stOnTG'),
                       InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='t.me/i24x7Update')
                      ], [
                       InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='t.me/+tG_HsZA8waBmYjE1'),
