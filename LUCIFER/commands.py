@@ -262,11 +262,11 @@ async def start(client, message):
         try:
             if IS_VERIFY and not await check_verification(client, message.from_user.id):
                 btn = [[
-                    InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-                    InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
+                    InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
+                    InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
                 ]]
                 return await message.reply_text(
-                    text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 𝟸 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ./u></b>",
+                    text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\n Please Verify /n After Verification You Got Unlimited Files Access For 2Hours./u></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -312,11 +312,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     if IS_VERIFY and not await check_verification(client, message.from_user.id):
         btn = [[
-            InlineKeyboardButton("⚠️Vᴇʀɪғʏ⚠️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-            InlineKeyboardButton("❗Hᴏᴡ Tᴏ Vᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
+            InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
+            InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
         ]]
         return await message.reply_text(
-            text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ᴜɴᴛɪʟ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 𝟸 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
+            text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPlease Verify /n After Verification You Got Unlimited Files Access For 2Hours.</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
