@@ -266,7 +266,7 @@ async def start(client, message):
                     InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
                 ]]
                 return await message.reply_text(
-                    text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\n Please Verify /n After Verification You Got Unlimited Files Access For 2Hours./u></b>",
+                    text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\n Please Verify \n After Verification You Got Unlimited Files Access For 2Hours./u></b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -316,7 +316,7 @@ async def start(client, message):
             InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
         ]]
         return await message.reply_text(
-            text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPlease Verify /n After Verification You Got Unlimited Files Access For 2Hours.</b>",
+            text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPlease Verify \n After Verification You Got Unlimited Files Access For 2Hours.</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
