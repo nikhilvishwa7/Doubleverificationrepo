@@ -263,7 +263,7 @@ async def start(client, message):
             if IS_VERIFY and not await check_verification(client, message.from_user.id):
                 btn = [[
                     InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-                    InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
+                    InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/OpenOmnifly")
                 ]]
                 return await message.reply_text(
                     text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 <u>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\n Please Verify \n After Verification You Got Unlimited Files Access For 2Hours./u></b>",
@@ -313,7 +313,7 @@ async def start(client, message):
     if IS_VERIFY and not await check_verification(client, message.from_user.id):
         btn = [[
             InlineKeyboardButton("Vᴇʀɪғʏ⚡", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
-            InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/i24x7Update/413")
+            InlineKeyboardButton("💠ʜᴏᴡ ᴛᴏ ᴠᴇʀɪғʏ❗", url="https://t.me/OpenOmnifly")
         ]]
         return await message.reply_text(
             text=f"<b>Hᴇʏ Tʜᴇʀᴇ {message.from_user.mention}\n\n📌 Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ᴛᴏᴅᴀʏ,\nPlease Verify \n After Verification You Got Unlimited Files Access For 2Hours.</b>",
