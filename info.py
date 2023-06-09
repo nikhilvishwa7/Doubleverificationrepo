@@ -51,7 +51,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', 0))
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/i24x7Update/431')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/OpenOmnifly')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
